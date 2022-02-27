@@ -1,0 +1,184 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 90vh;
+  background: #ffffff;
+}
+
+.grid-container {
+  display: grid;
+  height: 80vh;
+  grid-template-columns: auto 37%;
+  margin-bottom: 3rem;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+}
+
+#btn {
+  background-color: #72c3dc;
+  display: inline-block;
+  padding: 1.2rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#text-style {
+  text-align: center;
+}
+
+#name-style {
+  text-align: center;
+}
+
+#sidebar {
+  background: #efefef;
+  padding-top: var(--main-padding);
+}
+
+.cards {
+  font-size: 5rem;
+  padding-top: 4rem;
+}
+
+#card1 {
+  background: #6f98a8;
+}
+
+#card2 {
+  background: #2b8ead;
+
+}
+
+#card3 {
+  background: #2f454e;
+
+}
+#card4 {
+  background: #2b8ead;
+}
+
+#card5 {
+  background: #2f454e;
+}
+
+#card6 {
+  background: #bfbfbf;
+}
+#card7 {
+  background: #bfbfbf;
+}
+
+#card8 {
+  background: #6f98a8;
+}
+
+#card9 {
+  background: #2f454e;
+}
+
+@media (max-width: 550px) {
+  .grid-container {
+    height: 32.5rem;
+   display:flex;
+   flex-direction: column-reverse;
+    padding-top: var(--main-padding);
+    border-radius: var(--main-radius);
+    grid-gap: 0.2rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    color: black;
+  }
+
+  .container {
+    height: 41rem;
+    background: #ffffff;
+    border: 1px solid black;
+    background-color: black;
+    box-shadow: -0px 0px 0px 11px black;
+  }
+#card-container {
+    grid-template-columns: 100%;
+    grid-gap: 0.2rem;
+}
+  
+
+  #text-style {
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  #name-style {
+    text-align: center;
+  }
+
+  #sidebar {
+    background: #ffffff;
+    margin-bottom: 1rem;
+    padding-top: var(--main-padding);
+  }
+
+  .cards {
+    padding-top: 0rem;
+    font-size: 2.2rem;
+  }
+
+  #card1 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #6f98a8;
+  }
+
+  #card2 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #2b8ead;
+  }
+
+  #card3 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #2f454e;
+  }
+  #card4 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #2b8ead;
+  }
+
+  #card5 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #2f454e;
+  }
+
+  #card6 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #bfbfbf;
+  }
+  #card7 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #bfbfbf;
+  }
+
+  #card8 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #6f98a8;
+  }
+
+  #card9 {
+    background: #efefef;
+    box-shadow: -8px 0px 0px 0px #bfbfbf;
+  }
+}
