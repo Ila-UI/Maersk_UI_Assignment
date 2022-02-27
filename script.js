@@ -16,7 +16,11 @@ window.addEventListener('DOMContentLoaded', function () {
 
 function shuffle() {
     let nodeList = cardContainer.childNodes;
-    let array = [nodeList[0].innerHTML, nodeList[1].innerHTML, nodeList[2].innerHTML, nodeList[3].innerHTML, nodeList[4].innerHTML, nodeList[5].innerHTML, nodeList[6].innerHTML, nodeList[7].innerHTML, nodeList[8].innerHTML]
+
+    const array=[];
+    nodeList.forEach((item) => {
+        array.push(item.innerHTML);
+    });
 
     for (let i = array.length - 1; i > 0; i--) {
         const r = Math.floor(Math.random() * (i + 1));
@@ -33,7 +37,10 @@ function shuffle() {
 
 function sort() {
     let nodeList = cardContainer.childNodes;
-    let array = [nodeList[0].innerHTML, nodeList[1].innerHTML, nodeList[2].innerHTML, nodeList[3].innerHTML, nodeList[4].innerHTML, nodeList[5].innerHTML, nodeList[6].innerHTML, nodeList[7].innerHTML, nodeList[8].innerHTML]
+    const array=[];
+    nodeList.forEach((item) => {
+        array.push(item.innerHTML);
+    });
 
     const output = array.sort();
 
