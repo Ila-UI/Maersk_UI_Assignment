@@ -16,8 +16,6 @@ body {
   #card-container {
     display: grid;
     grid-template-columns: repeat(3, 200px);
-
-
   }
   
   #sidebar {
@@ -94,6 +92,10 @@ body {
       padding: 0px 15px;
       background-color: white;
     }
+    .container {
+   
+   background-color: #fff;
+  }
   
     .shuffle {
       background: #000;
@@ -115,6 +117,7 @@ body {
         width: 100%;
         grid-template-columns: 100%;
         grid-gap: 0.5rem;
+       
       }
     
       .cards {
